@@ -1,0 +1,5 @@
+{
+    "name": "pre-commit-pyright",
+    "version": "0.0.0",
+    "description": "dummy package wrapping pyright for making sure that the pre-commit hook is installable (otherwise pre-commit gives an assertion error)"
+}
