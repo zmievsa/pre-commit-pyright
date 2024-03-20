@@ -1,0 +1,9 @@
+-   id: pyright
+    name: pyright
+    description: 'Static Type Checker for Python'
+    entry: poetry run pyright
+    language: python
+    types: [python]
+    require_serial: true
+    always_run: true
+    additional_dependencies: ["pyright@1.1.355"]
