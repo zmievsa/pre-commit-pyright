@@ -2,7 +2,7 @@
     name: pyright
     description: 'Static Type Checker for Python'
     entry: poetry run pyright
-    language: python
+    language: node
     types: [python]
     require_serial: true
     always_run: true
@@ -12,7 +12,7 @@
     name: pyright
     description: 'Static Type Checker for Python'
     entry: pdm run pyright
-    language: python
+    language: node
     types: [python]
     require_serial: true
     always_run: true
